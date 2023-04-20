@@ -3,6 +3,11 @@ header {
     background-color: black;
 }
 
+a > img {
+    float: right;
+    padding: 29px;
+}
+
  * {
     margin: 0%;
     padding: 0%;
