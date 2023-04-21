@@ -1,11 +1,20 @@
 
 header {
     background-color: black;
+    padding-top: 17px;
+    
 }
+
 
 a > img {
     float: right;
-    padding: 27px;
+    padding: 17px;   
+}
+
+a > img:hover {
+    background-color: red;
+    border-radius: 8px 8px 8px;
+    transition-duration: 1s;
 }
 
  * {
@@ -15,8 +24,8 @@ a > img {
 
 nav {
     background-color: rgba(128, 128, 128, 0.424);
-    padding: 10px;
-    margin-bottom: 25px;
+    padding: 8px;
+    margin-bottom: 50px;
 }
 
 
@@ -27,7 +36,7 @@ body {
 
 nav > a {
     color: white;
-    padding: 10px;
+    padding: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0);
