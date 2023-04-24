@@ -19,6 +19,13 @@ h2 {
     padding-top: 10px;
 }
 
+main {
+    text-align: justify;
+    min-width: 280px;
+    max-width: 900px;
+    margin: auto;
+}
+
 a > img {
     float: right;
     padding: 17px;   
